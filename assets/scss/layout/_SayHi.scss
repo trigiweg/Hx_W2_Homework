@@ -1,0 +1,58 @@
+.SayHiContent{
+    display: flex;
+    background: black;  
+    justify-content: center;
+} 
+
+.SayHiContent .peopleImg{
+   padding-top: 72px;
+   padding-bottom: 72px;
+}
+
+.myName{
+    width: 636px; 
+    margin-top: 232px;
+}
+
+.myName h1{
+    color: #00FFA3;
+    font-size: 128px;
+    line-height: 192px;
+    text-align: right; 
+}
+
+.myName h2{
+    line-height: 96px;
+    color: #FFFFFF;
+    font-size: 64px;
+}
+
+.myName .radius-contactbtn{
+    background: white; 
+    border-radius: 32px;
+    text-align: center;
+    margin-left: 451px;
+    
+}
+
+.myName .radius-contactbtn:hover{
+   background: lightgrey;
+    
+}
+
+.myName .radius-contactbtn p{ 
+    padding-left: 12px;
+    padding-top: 24px;
+    padding-right: 12px;
+    padding-bottom: 24px; 
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+}
+ 
+
+.myName .radius-contactbtn a{
+    text-decoration: none;
+    color: black;
+}
+ 
