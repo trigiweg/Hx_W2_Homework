@@ -1,0 +1,71 @@
+
+.ml-312{
+    margin-left: 312px;
+}
+.mr-24{
+    margin-right: 24px;
+}
+.mb-28{
+    margin-bottom: 28px;
+}
+
+.myProjContent{
+    display: flex; 
+    padding-bottom: 160px;
+}
+
+.myProjH2{
+    padding-top: 160px;
+    padding-left: 862px;
+    margin-bottom: 16px;
+    color: black;
+    font-size: 64px;
+    line-height: 96px; 
+}
+
+.projTopArea{
+    display: flex;
+}
+
+.projTopRightArea{
+    width: 636px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #15161D;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projTopRightArea p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.radius-seeMorebtn{
+    background: #000000; 
+    border-radius: 32px;
+    text-align: center; 
+    width: 185px;
+}
+
+.radius-seeMorebtn:hover{
+    background: gray;  
+}
+ 
+.radius-seeMorebtn p{ 
+    padding-left: 12px;
+    padding-top: 24px;
+    padding-right: 12px;
+    padding-bottom: 24px; 
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+ 
+.radius-seeMorebtn a{
+    text-decoration: none;
+    color: white;
+}
+
