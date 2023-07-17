@@ -1,0 +1,59 @@
+ .mr-24{
+    margin-right: 22px;
+ }
+ .mb-24{
+    margin-bottom: 22px;
+ }
+ .mb-36{
+    margin-bottom: 36px;
+ }
+ 
+ .aboutMeContent{
+    display: flex;
+    background: white;
+    justify-content: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    // align-items: center;
+ }
+
+ .cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 636px;
+    margin-right: 134px;
+ }
+
+ .aboutMeContent .cards .card-items{
+    border: 1px #E3E3E3 solid;
+    width: 272px;
+    padding: 16px;
+ }
+
+ .aboutMeContent .cards .card-items h3{
+    font-size: 20px;
+    line-height: 30px;
+    color: #15161D;
+ }
+
+ .aboutMeContent .cards .card-items p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #15161D;
+ }
+
+ .aboutMeContent .aboutMeCard{
+    width: 526px;
+ }
+
+ .aboutMeContent .aboutMeCard h2{
+    font-size: 64px;
+    line-height: 96px;
+    color: #000000;
+ }
+
+ .aboutMeContent .aboutMeCard p{
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+ }
