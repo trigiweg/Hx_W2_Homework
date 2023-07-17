@@ -1,0 +1,32 @@
+
+.mr-24{
+    margin-right: 24px;
+}
+
+.IntroContent{
+    background-image: url(../assets/images/background-img.png);
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.IntroContent .Intro-item1{
+    width: 526px; 
+    margin-right: 24px;
+}
+
+.IntroContent .Intro-item1 h2{
+    font-size: 64px;
+    line-height: 96px;
+    color:#FFFFFF;
+    padding-bottom: 36px;
+}
+
+.IntroContent .Intro-item1 p{
+    font-size: 24px;
+    line-height: 36px;
+    color:#FFFFFF;
+    padding-bottom: 32px;
+}
+ 
