@@ -1,0 +1,29 @@
+.contactMeContent{ 
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// .contactMeContent .contactMeItem1{
+//     padding-top: 129px;
+//     padding-bottom: 129px;
+// }
+
+.contactMeContent .contactMeItem1 h2{
+    color: white;
+    font-size: 64px;
+    line-height: 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactMeContent .contactMeItem1 img{
+   margin-left: 16px;
+   margin-right: 121.33px;
+}
+
+.contactMeContent .contactMeItem2{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
