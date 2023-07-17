@@ -4,7 +4,8 @@
 }
 
 .IntroContent{
-    background-image: url(../assets/images/background_img.png);
+    background-image: url(../assets/images/background_img.png); //local 開發使用
+    // background-image: url(../assets/background_img-ba471383.png); //布版使用    
     display: flex;
     justify-content: center;
     padding-top: 160px;
