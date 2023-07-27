@@ -10,8 +10,11 @@
 }
 
 .myName{
-    width: 636px; 
-    margin-top: 232px;
+    display: flex;
+    flex-direction: column;
+    // width: 636px; 
+    // margin-top: 232px;
+    align-self: center;
 }
 
 .myName h1{
@@ -31,7 +34,8 @@
     background: white; 
     border-radius: 32px;
     text-align: center;
-    margin-left: 451px;
+    // margin-left: 451px;
+    margin-left: auto; 
     
 }
 
