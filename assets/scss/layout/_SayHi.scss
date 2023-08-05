@@ -4,9 +4,12 @@
     justify-content: center;
 } 
 
-.SayHiContent .peopleImg{
-   padding-top: 72px;
-   padding-bottom: 72px;
+.SayHiContent .peopleImg{ 
+    padding-top: 72px;
+    padding-bottom: 72px;
+    img{
+        width: 100%;
+    }
 }
 
 .myName{

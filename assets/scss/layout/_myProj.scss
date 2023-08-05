@@ -1,3 +1,21 @@
+.mw-416{
+    max-width: 416px;
+}
+.mh-530{
+    max-height: 530px;
+} 
+.mh-196{
+    max-height: 196px;
+} 
+.mw-24{
+    max-width: 24px;
+}
+.mh-24{
+    max-height: 24px;
+} 
+.mw-526{
+    max-width: 526px;
+}
 
 .ml-312{
     margin-left: 312px;
@@ -12,15 +30,21 @@
 .myProjContent{
     display: flex; 
     padding-bottom: 160px;
+    // max-width: 1296px;
+    justify-content: center;
+    img{
+        width: 100%;
+    }
 }
 
 .myProjH2{
     padding-top: 160px;
-    padding-left: 862px;
+    // padding-left: 862px;
     margin-bottom: 16px;
     color: black;
-    font-size: 64px;
-    line-height: 96px; 
+    font-size: 64px; 
+    width: 746px;
+    margin-left: auto;
 }
 
 .projTopArea{
@@ -29,8 +53,7 @@
 
 .projTopRightArea{
     width: 636px;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 16px; 
     color: #15161D;
     display: flex; 
     flex-direction: column;
@@ -38,8 +61,7 @@
 }
 
 .projTopRightArea p{
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 16px; 
 }
 
 .radius-seeMorebtn{
@@ -57,11 +79,11 @@
     padding-left: 12px;
     padding-top: 24px;
     padding-right: 12px;
-    padding-bottom: 24px; 
-    line-height: 24px;
+    padding-bottom: 24px;  
     display: flex;
     justify-content: center;
     color: white;
+
 }
  
 .radius-seeMorebtn a{
@@ -69,3 +91,6 @@
     color: white;
 }
 
+.projButtomArea{
+    display: flex;
+}

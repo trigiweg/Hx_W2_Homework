@@ -8,11 +8,104 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
-    <%- include('./layout/SayHi'); -%>
-    <%- include('./layout/Intro'); -%>
-    <%- include('./layout/aboutMe'); -%>
-    <%- include('./layout/contactMe'); -%>
-    <%- include('./layout/myProj'); -%> 
+
+    <div class="container SayHiContent">
+      <div class="peopleImg">
+        <img src="../assets/images/people.png" alt=""> 
+      </div>
+       
+      <div class="myName"> 
+        <h2>Hi <br> I’m a front-end developer</h2>
+        <h1>William</h1>
+        <div class="radius-contactbtn">
+          <a href="#"><p>CONTACT ME<img src="../assets/images/arrow_outward.png" alt=""></p></a> 
+        </div>
+      </div>        
+    </div>
+
+    <div class="container IntroContent">
+      <div class="Intro-item1">
+          <h2>Introduction</h2>
+          <p>Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful and responsive websites that provide an optimal user experience.</p>
+          <img src="../assets/images/sparkle-sm.png" alt="">
+          <img src="../assets/images/sparkle-sm.png" alt="">
+          <img src="../assets/images/sparkle-sm.png" alt="">
+      </div>
+      <div class="Intro-item2">
+          <img class="mr-24 mw-196 mh-600" src="../assets/images/sparkle.png" alt="">
+          <img class="mr-24 mw-196 mh-600" src="../assets/images/photographer.png" alt="">
+          <img class="mw-306 mh-600" src="../assets/images/people-2.png" alt="">
+      </div>
+    </div>
+
+    <div class="container aboutMeContent">
+      <div class="cards">
+          <div class="card-items mr-22 mb-22">
+              <h3>01</h3>
+              <h3>Attention to Detail</h3>
+              <p>Meticulous code analysis and optimization.</p>
+          </div>
+          <div class="card-items mb-22">
+              <h3>02</h3>
+              <h3>Adaptability</h3>
+              <p>Swift learning of new technologies.</p>
+          </div>
+          <div class="card-items mr-22">
+              <h3>03</h3>
+              <h3>Problem Solver</h3>
+              <p>Identifying and resolving issues.</p>
+          </div>
+          <div class="card-items">
+              <h3>04</h3>
+              <h3>Team Player</h3>
+              <p>Collaborates and shares ideas.</p>
+          </div>
+      </div>
+      <div class="aboutMeCard">
+          <h2 class="mb-36">About Me</h2>
+          <p>With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and React. I have a strong understanding of user experience design and accessibility. I'm always learning new technologies and techniques to stay up-to-date in the field.</p>
+      </div>
+  </div>
+  
+  <div class="container contactMeContent">
+      <div class="contactMeItem1">
+          <h2>CONTACT ME<img src="../assets/images/trending_flat_black_24dp 1.png" alt=""></h2>
+          
+      </div>
+      <div class="contactMeItem2">
+        
+          <li><img src="../assets/images/discord.png" alt=""></li>
+          <li><img src="../assets/images/instagram.png" alt=""></li>
+          <li><img src="../assets/images/message.png" alt=""></li>
+        
+      </div>
+  </div>
+  
+  <div class="container ">
+      <h2 class="myProjH2">My Projects</h2>
+      <div class="myProjContent">
+         
+          <img class="mw-416 mh-530 mr-24" src="../assets/images/Rectangle 10.png" alt="">
+         
+        <div class="projRightBlock">
+            <div class="projTopArea mb-28">
+                <img class="mr-24 mw-196 mh-196{" src="../assets/images/Rectangle 15.png" alt="">
+                <div class="projTopRightArea">
+                    <p>I've worked on a variety of websites, including e-commerce sites, blogs, and landing pages. I take pride in creating clean, efficient, and user-friendly code.</p>
+                    <div class="radius-seeMorebtn">
+                        <a href="#"><p>SEE MORE<img class="mw-24 mh-24" src="../assets/images/arrow_outward-white.png" alt=""></p></a> 
+                    </div>
+                </div>
+            </div>
+            <div class="projButtomArea">
+                <img class="mr-24 mh-306 mw-306" src="../assets/images/Rectangle 14.png" alt="">
+                <img class="mw-526 mh-306" src="../assets/images/Rectangle 29.png" alt="">
+            </div>
+
+        </div>
+      </div>
+  </div>
+    
 
     <%- include('./layout/footer'); -%>
 

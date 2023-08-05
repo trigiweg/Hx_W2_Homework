@@ -46,29 +46,35 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-// *,*::before, *::after{
-// 	font-family: "Bruno Ace SC";
-// }
- /* rwd img css，可當作是 CSS Reset 其中一個 */
+ 
+ ul,ol,li {
+	margin:0;
+	padding:0;
+	list-style:none
+}
 
 img{
 	max-width: 100%;
 	height: auto;
 	vertical-align: middle;
   }
-  
-  /* 全域 border box */
-  
-  *,*::before,*::after{
-	box-sizing: border-box;
-  }
-
-.container{
-    // max-width: 1920px; 
-    margin: 0 auto;   
-}
+   
 body{
 	font-family: 'Bruno Ace SC', cursive;
 	line-height:1.5;
+}
+
+
+a{
+	text-decoration: none;
+} 
+
+*,*::before,*::after{
+	box-sizing: border-box;
+  }
+ 
+
+.container{
+	// max-width: 1920px;  
+	margin: 0 auto; 
 }

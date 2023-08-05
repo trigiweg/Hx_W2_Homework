@@ -2,6 +2,18 @@
 .mr-24{
     margin-right: 24px;
 }
+.mw-196{
+    max-width: 196px;
+}
+.mh-600{
+    max-height: 600px;
+}
+.mw-306{
+    max-width: 306px;
+}
+.mh-306{
+    max-height: 306px;
+}
 
 .IntroContent{
     // background-image: url(../assets/images/background_img.png); //local 開發使用
@@ -14,21 +26,30 @@
 }
 
 .IntroContent .Intro-item1{
-    width: 526px; 
+    max-width: 526px; 
+    // max-width: 50%;
+    width: 100%;
     margin-right: 24px;
 }
 
 .IntroContent .Intro-item1 h2{
     font-size: 64px;
-    line-height: 96px;
+    // line-height: 96px;
     color:#FFFFFF;
     padding-bottom: 36px;
 }
 
 .IntroContent .Intro-item1 p{
     font-size: 24px;
-    line-height: 36px;
+    // line-height: 36px;
     color:#FFFFFF;
     padding-bottom: 32px;
+}
+
+.Intro-item2{
+    max-width: 50%;
+    img{
+        width: 100%;
+    }
 }
  

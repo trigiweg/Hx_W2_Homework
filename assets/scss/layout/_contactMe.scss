@@ -21,9 +21,20 @@
 .contactMeContent .contactMeItem1 img{
    margin-left: 16px;
    margin-right: 121.33px;
+   max-width: 80px;
+    width: 100%;
 }
 
 .contactMeContent .contactMeItem2{
     padding-top: 96px;
     padding-bottom: 96px;
+    display: flex;
+    img{
+        max-width: 162px;
+        max-height: 162px;
+        width: 100%;
+    }
+    // 
+    // width: 100%;
+    
 }
