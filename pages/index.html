@@ -9,12 +9,12 @@
   <body>
     <%- include('./layout/header'); -%>
 
-    <div class="container SayHiContent">
-      <div class="peopleImg">
+    <div class="container SayHiContent" >
+      <div class="peopleImg" data-aos="fade-up">
         <img src="../assets/images/people.png" alt=""> 
       </div>
        
-      <div class="myName"> 
+      <div class="myName" data-aos="fade-up"> 
         <h2>Hi <br> I’m a front-end developer</h2>
         <h1>William</h1>
         <div class="radius-contactbtn">
@@ -23,15 +23,15 @@
       </div>        
     </div>
 
-    <div class="container IntroContent">
-      <div class="Intro-item1">
+    <div class="container IntroContent" >
+      <div class="Intro-item1" data-aos="fade-up">
           <h2>Introduction</h2>
           <p>Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful and responsive websites that provide an optimal user experience.</p>
           <img src="../assets/images/sparkle-sm.png" alt="">
           <img src="../assets/images/sparkle-sm.png" alt="">
           <img src="../assets/images/sparkle-sm.png" alt="">
       </div>
-      <div class="Intro-item2">
+      <div class="Intro-item2" data-aos="fade-up">
           <img class="mr-24 mw-196 mh-600" src="../assets/images/sparkle.png" alt="">
           <img class="mr-24 mw-196 mh-600" src="../assets/images/photographer.png" alt="">
           <img class="mw-306 mh-600" src="../assets/images/people-2.png" alt="">
@@ -39,7 +39,7 @@
     </div>
 
     <div class="container aboutMeContent">
-      <div class="cards">
+      <div class="cards" data-aos="fade-up">
           <div class="card-items mr-22 mb-22">
               <h3>01</h3>
               <h3>Attention to Detail</h3>
@@ -61,18 +61,18 @@
               <p>Collaborates and shares ideas.</p>
           </div>
       </div>
-      <div class="aboutMeCard">
+      <div class="aboutMeCard" data-aos="fade-up">
           <h2 class="mb-36">About Me</h2>
           <p>With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and React. I have a strong understanding of user experience design and accessibility. I'm always learning new technologies and techniques to stay up-to-date in the field.</p>
       </div>
   </div>
   
   <div class="container contactMeContent">
-      <div class="contactMeItem1">
+      <div class="contactMeItem1" data-aos="fade-up">
           <h2>CONTACT ME<img src="../assets/images/trending_flat_black_24dp 1.png" alt=""></h2>
           
       </div>
-      <div class="contactMeItem2">
+      <div class="contactMeItem2" data-aos="fade-up">
         
           <li><img src="../assets/images/discord.png" alt=""></li>
           <li><img src="../assets/images/instagram.png" alt=""></li>
@@ -82,8 +82,8 @@
   </div>
   
   <div class="container ">
-      <h2 class="myProjH2">My Projects</h2>
-      <div class="myProjContent">
+      <h2 class="myProjH2" data-aos="fade-up">My Projects</h2>
+      <div class="myProjContent" data-aos="fade-up">
          
           <img class="mw-416 mh-530 mr-24" src="../assets/images/Rectangle 10.png" alt="">
          
@@ -110,5 +110,11 @@
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
